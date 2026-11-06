@@ -1,0 +1,25 @@
+# Bilingual-pair consistency record for adding-vendored-skills.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write docs/cookbook/adding-vendored-skills.md
+/cookbook-vendoring-an-external-skill-set:
+  en: 9e0d3d29c1596f9b
+  zh: 2e0d9fca36c78fcb
+/cookbook-vendoring-an-external-skill-set/1-copy-the-skill-directories-in:
+  en: c918a9d3d32fdddd
+  zh: dabb9fc9e975b9bf
+/cookbook-vendoring-an-external-skill-set/2-record-the-provenance:
+  en: a2ae00ccaaf99c68
+  zh: e8d9a1b650c9461c
+/cookbook-vendoring-an-external-skill-set/3-prove-the-copy-works:
+  en: 2539f2f90ea4dc25
+  zh: 65892a94d72e6dcb
+/cookbook-vendoring-an-external-skill-set/4-use-a-vendored-skill-in-a-session:
+  en: 9ed7394a255de39c
+  zh: acbd58610206f6bd
+/cookbook-vendoring-an-external-skill-set/5-what-a-vendored-body-must-satisfy:
+  en: 34e1e5c67e997256
+  zh: 9fc1fe5f5bdf4079
+/cookbook-vendoring-an-external-skill-set/6-refresh-the-vendored-batch:
+  en: de10260ccef6b94b
+  zh: 0446dd530ae68bfe

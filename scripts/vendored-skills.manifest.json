@@ -1,0 +1,164 @@
+{
+  "vendored_from": {
+    "repo": "amd/skills",
+    "ref": "main",
+    "commit": "ff5f4ccfced104197623ba3811f25bd16aeb187d",
+    "source_commit_date": "2026-11-05T13:22:55-07:00",
+    "imported_at": "2026-11-06"
+  },
+  "skills": [
+    {
+      "name": "flydsl-kernel-authoring",
+      "upstream": {
+        "repo": "ROCm/FlyDSL",
+        "ref": "main",
+        "commit": "4164d73c4682f741da9b67f09a1587775256eba6",
+        "license": "Apache-2.0"
+      }
+    },
+    {
+      "name": "flydsl-kernel-trace-analysis",
+      "upstream": {
+        "repo": "ROCm/FlyDSL",
+        "ref": "main",
+        "commit": "4c23ffcc180a424483901d0d55f0e1716cee3963",
+        "license": "Apache-2.0"
+      }
+    },
+    {
+      "name": "hyperloom-workload-optimizer",
+      "upstream": {
+        "repo": "AMD-AGI/Hyperloom",
+        "ref": "main",
+        "commit": "0012585b70046adaf4e70ea0ed1da63436f6a0b4",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "lemonade-router-builder",
+      "upstream": {
+        "repo": "lemonade-sdk/skills",
+        "ref": "main",
+        "commit": "2cda16c5f470379b888afc40391bca1b6b29a41e",
+        "license": "Apache-2.0"
+      }
+    },
+    {
+      "name": "local-ai-app-integration",
+      "upstream": {
+        "repo": "lemonade-sdk/skills",
+        "ref": "main",
+        "commit": "17e5fc7644bb5dd431d2b6663c9d72635a1adb59",
+        "license": "Apache-2.0"
+      }
+    },
+    {
+      "name": "local-ai-use",
+      "upstream": {
+        "repo": "lemonade-sdk/skills",
+        "ref": "main",
+        "commit": "17e5fc7644bb5dd431d2b6663c9d72635a1adb59",
+        "license": "Apache-2.0"
+      }
+    },
+    {
+      "name": "magpie-kernel-evaluator",
+      "upstream": {
+        "repo": "AMD-AGI/Magpie",
+        "ref": "main",
+        "commit": "5d6aaa29f2ee78e53ec35c8bc2e082d8a10c47f0",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "quark-install",
+      "upstream": {
+        "repo": "amd/Quark",
+        "ref": "release/*",
+        "commit": "313cb0b78ef364cb937598bc3431c46e28a226f4",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "quark-torch-llm-ptq",
+      "upstream": {
+        "repo": "amd/Quark",
+        "ref": "release/*",
+        "commit": "313cb0b78ef364cb937598bc3431c46e28a226f4",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "rocm-doctor",
+      "upstream": {
+        "repo": "ROCm/rocm-cli",
+        "ref": "main",
+        "commit": "e6d2f7c0d7b9a8051a475dfaca84756e5b97aecf",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "rocprofiler-pc-sampling",
+      "upstream": {
+        "repo": "ROCm/rocm-systems",
+        "ref": "develop",
+        "commit": "8a45f2c24fa5a56d4bba1ac8d08e5731e1dc89c5",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "rocprofiler-systems-choosing-a-profiling-preset",
+      "upstream": {
+        "repo": "ROCm/rocm-systems",
+        "ref": "develop",
+        "commit": "69379f2d8bc59311b4e20aa76ef3375964c87985",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "rocprofiler-systems-discovering-profiling-options",
+      "upstream": {
+        "repo": "ROCm/rocm-systems",
+        "ref": "develop",
+        "commit": "69379f2d8bc59311b4e20aa76ef3375964c87985",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "rocprofiler-systems-instrumenting-binaries",
+      "upstream": {
+        "repo": "ROCm/rocm-systems",
+        "ref": "develop",
+        "commit": "69379f2d8bc59311b4e20aa76ef3375964c87985",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "serving-llms-on-epyc",
+      "upstream": {
+        "repo": "amd/ZenDNN-pytorch-plugin",
+        "ref": "main",
+        "commit": "6b2db6f2a47cc9b603570f6b4a93c37e5d04dba7",
+        "license": "Apache-2.0"
+      }
+    },
+    {
+      "name": "serving-llms-on-instinct",
+      "upstream": {
+        "repo": "amd/skills",
+        "ref": "main",
+        "commit": "ff5f4ccfced104197623ba3811f25bd16aeb187d",
+        "license": null
+      }
+    },
+    {
+      "name": "tracelens-analysis-orchestrator",
+      "upstream": {
+        "repo": "AMD-AGI/TraceLens",
+        "ref": "main",
+        "commit": "054c15ad1833b863baf32d2279f9ff1799524a93",
+        "license": "MIT"
+      }
+    }
+  ]
+}

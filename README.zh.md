@@ -77,6 +77,18 @@ pnpm dsh web
 
 面向 agent：请遵循 [AGENTS.md](AGENTS.md)。
 
+## Skill
+
+本 checkout 在 `.agents/skills/` 下携带一套仓库 skill（技能）：本仓库自有的编写类 skill，以及从 [`amd/skills`](https://github.com/amd/skills) vendoring 而来的 AMD GPU skill。在 checkout 内启动 harness 后，它们全部进入该会话的 skill 目录；当任务点名或明显匹配某个 skill 时模型才加载其正文，聊天会话可以直接输入 `/rocm-doctor` 调用它。
+
+```sh
+pnpm run build
+pnpm run verify-vendored-skills
+pnpm dsh headless "Use the rocm-doctor skill to diagnose this ROCm install"
+```
+
+[adding-vendored-skills.zh.md](docs/cookbook/adding-vendored-skills.zh.md) 说明 vendor 清单、验收检查以及每个 skill 的前置条件；[subsystems/skills.zh.md](docs/subsystems/skills.zh.md) 负责发现与调用语义。
+
 ## 引用
 
 ```bibtex

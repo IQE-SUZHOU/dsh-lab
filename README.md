@@ -58,6 +58,18 @@ Start with the [development guide](docs/development.md) and [architecture docume
 
 For agents, follow [AGENTS.md](AGENTS.md).
 
+## Skills
+
+This checkout ships a repository skill set under `.agents/skills/`: the repository's own authoring skills, plus the AMD GPU skills vendored from [`amd/skills`](https://github.com/amd/skills). Start the harness inside the checkout and every one of them is in that session's skill catalog; the model loads a skill body when a task names or clearly matches it, and a chat session can invoke one directly by typing `/rocm-doctor`.
+
+```sh
+pnpm run build
+pnpm run verify-vendored-skills
+pnpm dsh headless "Use the rocm-doctor skill to diagnose this ROCm install"
+```
+
+[adding-vendored-skills.md](docs/cookbook/adding-vendored-skills.md) covers the vendor manifest, the acceptance check, and the per-skill prerequisites; [subsystems/skills.md](docs/subsystems/skills.md) owns discovery and invocation semantics.
+
 ## Citation
 
 ```bibtex
